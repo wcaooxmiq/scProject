@@ -1,0 +1,84 @@
+# Verilog/SystemVerilog build outputs
+*.vcd
+*.fsdb
+*.shm
+*.trn
+*.dsn
+*.pvl
+*.syn
+
+# Simulation outputs
+simv*
+csrc/
+ucli.key
+*.log
+*.out
+*.err
+
+# Synthesis outputs  
+*.ddc
+*.svf
+*.mr
+*.pvl
+reports/
+work/
+build/
+
+# ModelSim/QuestaSim
+work/
+transcript
+*.wlf
+*.vstf
+*.vcd
+*.udo
+
+# Synopsys
+*.syn
+*.mr
+*.pvl
+command.log
+
+# Xilinx
+*.jou
+*.str
+xsim.dir/
+*.pb
+
+# Altera/Intel
+db/
+incremental_db/
+*.qpf
+*.qsf
+*.qws
+*.qtl
+*.summary
+*.done
+*.rpt
+*.smsg
+*.pin
+*.sof
+*.pof
+*.jdi
+*.stp
+*.qarlog
+*.qar
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# Editor files
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Backup files
+*.bak
+*.backup
