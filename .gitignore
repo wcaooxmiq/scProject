@@ -63,6 +63,17 @@ incremental_db/
 *.qarlog
 *.qar
 
+# Python virtual environments
+venv/
+env/
+.env
+.venv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
 # OS generated files
 .DS_Store
 .DS_Store?
